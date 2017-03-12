@@ -81,13 +81,11 @@
 {% assign sorted_tags = item.tags | sort %}
 
 <div class="item {{ item.type }} {{ item.tags | join ' ' }}">
-	<a href="https://apps.getpebble.com/en_US/application/{{ item.id }}?dev_settings=true">
-		<span class="img"><img src="imgs/{{ item.id }}.{{ item.imgext }}" alt=""></span>
-		<span class="name">{{ item.name }}</span>
-		<span class="author">{{ item.author }}</span>
-		<span class="tags">{% for tag in sorted_tags %}<span class="tag">{{tag}}</span>{% endfor %}</span>
-		<span class="mydesc">{{ item.mydesc }}</span>
-	</a>
+	<span class="img"><a href="https://apps.getpebble.com/en_US/application/{{ item.id }}?dev_settings=true"><img src="imgs/{{ item.id }}.{{ item.imgext }}" alt=""></a></span>
+	<span class="name"><a href="https://apps.getpebble.com/en_US/application/{{ item.id }}?dev_settings=true">{{ item.name }}</a></span>
+	<span class="author">{{ item.author }}</span>
+	<span class="tags">{% for tag in sorted_tags %}<span class="tag">{{tag}}</span>{% endfor %}</span>
+	<span class="mydesc">{{ item.mydesc }}</span>
 </div>
 
 {% endfor %}
