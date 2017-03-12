@@ -1,0 +1,287 @@
+- id: 588e6a2893254a9b24000820
+  imgext: gif
+  name: Sundial
+  author: Nev Rawlins
+  type: watchface
+  tags: [clock_analog, has_settings]
+  mydesc: Simulates a sundial analog clock.
+
+- id: 5803cc5cc98866548c000141
+  imgext: png
+  name: Clean Cut
+  author: Christian Reinbacher
+  type: watchface
+  tags: [clock_digital, battery, has_settings]
+  mydesc: Simple digital clock with big numbers.
+
+- id: 58060628c988667eaa00009e
+  imgext: gif
+  name: Cut/up
+  author: Morris
+  type: watchface
+  tags: [clock_digital, battery, has_settings, animations]
+  mydesc: Simple digital clock with big numbers.
+
+- id: 52d8b3240bab47f4d5000021
+  imgext: png
+  name: Big Time
+  author: Pebble
+  type: watchface
+  tags: [clock_digital]
+  mydesc: Simple digital clock with big numbers.
+
+- id: 5660e85b15c22b9d6300008c
+  imgext: gif
+  name: Big Time+Date Colour
+  author: wedwabbit
+  type: watchface
+  tags: [clock_digital, has_settings]
+  mydesc: Simple digital clock with configurable colors and fonts.
+
+- id: 555283c7efff0cc8e50000b0
+  imgext: gif
+  name: Slides of Time
+  author: Morris
+  type: watchface
+  tags: [clock_digital, has_settings, date, animations, weather, timezones, health, battery]
+  mydesc: Highly customizable, all five rows can display different kinds of data. Has smooth animations.
+
+- id: 555a3ce1c2afa28d5800000f
+  imgext: png
+  name: Sliding Text
+  author: Pebble
+  type: watchface
+  tags: [clock_digital, animations]
+  mydesc: The time in English in a nice typeface.
+
+- id: 555a3b03ae067ddac1000014
+  imgext: png
+  name: Simplicity
+  author: Pebble
+  type: watchface
+  tags: [clock_digital, date]
+  mydesc: Date and time in a nice typeface.
+
+- id: 56fe9407a091baaf31000038
+  imgext: png
+  name: Nonogram
+  author: GeminiX
+  type: watchface
+  tags: [clock_digital]
+  mydesc: Time in the style of a (solved) nonogram/picross puzzle.
+
+- id: 557aaf5b9362838d9300000a
+  imgext: png
+  name: Tebbletris
+  author: WRansohoff
+  type: watchapp
+  tags: [game]
+  mydesc: Tetris, controlled with the buttons.
+
+- id: 56be30b6c85a7e0aa700001d
+  imgext: gif
+  name: Love Initials
+  author: Internet Designs
+  type: watchface
+  tags: [clock_digital, date, has_settings]
+  mydesc: Can put two letters inside a heart with arrow. I didn't like the font.
+
+- id: 55da12376323c5993c000014
+  imgext: png
+  name: Wonder Woman
+  author: Justin I'Onn
+  type: watchface
+  tags: [clock_digital, date]
+  mydesc: Time and date in a comic book style.
+
+- id: 55524d18ec8de776ea000064
+  imgext: gif
+  name: Pebble Fighter 2
+  author: MicroByte
+  type: watchface
+  tags: [clock_digital, date, animations, battery, from_video_games]
+  mydesc: Ryu VS M. Bison. Animates every second.
+
+- id: 5668ca3053fae762c4000074
+  imgext: gif
+  name: MKP
+  author: MicroByte
+  type: watchface
+  tags: [clock_digital, date, animations, from_video_games]
+  mydesc: Shows random characters and stages from Mortal Kombat.
+
+- id: 557c644b4923dd63b3000047
+  imgext: gif
+  name: Passing Breeze
+  author: MicroByte
+  type: watchface
+  tags: [clock_digital, date, battery, animations, from_video_games]
+  mydesc: Out Run visuals.
+
+- id: 55942d8a327b5a285b000068
+  imgext: gif
+  name: G&W Fire
+  author: MicroByte
+  type: watchface
+  tags: [clock_digital, date, battery, animations, from_video_games]
+  mydesc: Game & Watch simulator.
+
+- id: 55d333f8129a39497f000004
+  imgext: png
+  name: Maelstrom
+  author: Starthief
+  type: watchface
+  tags: [clock_digital, clock_analog, date, battery, from_video_games]
+  mydesc: Based on Tempest arcade game.
+
+- id: 5581b18d8ec60e158c000052
+  imgext: gif
+  name: DKtime
+  author: dezign999
+  type: watchface
+  tags: [clock_digital, from_video_games, animations, has_settings]
+  mydesc: Donkey Kong.
+
+- id: 55849bbef0b75101a8000045
+  imgext: gif
+  name: LoZtime
+  author: dezign999
+  type: watchface
+  tags: [clock_digital, from_video_games, animations, battery, date]
+  mydesc: NES Legend of Zelda.
+
+- id: 53da7a74b5daed086f000031
+  imgext: gif
+  name: Rick Astley Dance
+  author: dezign999
+  type: watchface
+  tags: [clock_digital, animations, date, broken_settings]
+  mydesc: Never gonna give you up.
+
+- id: 55afc6b0ac7b44ca0200007d
+  imgext: gif
+  name: Corneria
+  author: dezign999
+  type: watchface
+  tags: [clock_digital, from_video_games, animations, date, battery, broken_settings]
+  mydesc: Inspired by Star Fox game.
+
+- id: 54ceec1a0dcf452ffb00005a
+  imgext: gif
+  name: Tyson's Punch Out!!!
+  author: dezign999
+  type: watchface
+  tags: [clock_digital, from_video_games, animations, date, battery, has_settings]
+  mydesc: Based on Mike Tyson's Punch Out game for NES.
+
+- id: 58332f298c7ffffa980001a3
+  imgext: png
+  name: reserve999
+  author: dezign999
+  type: watchface
+  tags: [clock_digital, has_settings]
+  mydesc: Replicates the look of Pebble's built-in low-battery mode.
+
+- id: 556f3a53f51afea7c3000028
+  imgext: gif
+  name: PebbleEye 007
+  author: MicroByte
+  type: watchface
+  tags: [clock_digital, clock_analog, from_video_games, date, battery, has_settings]
+  mydesc: Based on GoldenEye 007.
+
+- id: 585717a206e776690a00026a
+  imgext: png
+  name: Super Mario Bros BIG TIME
+  author: dhbillings
+  type: watchface
+  tags: [clock_digital, from_video_games]
+  mydesc: Simple digital clock with big numbers in Super Mario Bros look.
+
+- id: 562920c72c491243ac000075
+  imgext: gif
+  name: Greenhill
+  author: MicroByte
+  type: watchface
+  tags: [clock_digital, from_video_games, date, battery]
+  mydesc: Inspired by Sonic The Hedgehog zones.
+
+- id: 5721d5910676423b86000002
+  imgext: gif
+  name: Sonic
+  author: Spinal
+  type: watchface
+  tags: [clock_digital, from_video_games, date, animations]
+  mydesc: Inspired by Sonic The Hedgehog title screen.
+
+- id: 56253111a0334f188400007d
+  imgext: png
+  name: Sonic Time
+  author: Thomas Neptune
+  type: watchface
+  tags: [clock_digital, from_video_games, date, battery, animations]
+  mydesc: Inspired by Sonic The Hedgehog.
+
+- id: 56f91e09d16f397e1300002a
+  imgext: png
+  name: MarioBros3
+  author: Spinal
+  type: watchface
+  tags: [clock_digital, from_video_games, animations]
+  mydesc: Based on Super Mario Bros 3 for NES. Animates every second. Shows the weekday, but not the date.
+
+- id: 579230c484242884d6000302
+  imgext: gif
+  name: Film - Creative Empire
+  author: Spinal
+  type: watchface
+  tags: [clock_digital, date, weather, battery, has_settings]
+  mydesc: Original art inspired by 16-bit video-games.
+
+- id: 53210404c401e71a360001ba
+  imgext: gif
+  name: Steam B Willie
+  author: dezign999
+  type: watchface
+  tags: [clock_digital, date, animations, from_pop_culture, has_settings]
+  mydesc: Plays a short clip of Steamboat Willie.
+
+- id: 5627db153c66a86bd2000085
+  imgext: png
+  name: Back in Time
+  author: dezign999
+  type: watchface
+  tags: [clock_analog, from_pop_culture]
+  mydesc: Inspired by Back To The Future movies.
+
+- id: 56118f019af990e4db000027
+  imgext: png
+  name: Back In Time
+  author: PixelWear
+  type: watchface
+  tags: [clock_digital, date, from_pop_culture, has_settings]
+  mydesc: Inspired by Back To The Future movies. When shaking, shows a countdown to a predefined date/time.
+
+- id: 56a60385481c6769ea00002e
+  imgext: png
+  name: Back In Time!
+  author: Luis Adrián Ferreyra
+  type: watchface
+  tags: [clock_digital, date, from_pop_culture]
+  mydesc: Inspired by Back To The Future movies. Hard to read.
+
+- id: 539d4548e1e6291c82000133
+  imgext: gif
+  name: Back to the Jetlag
+  author: Le Fauve
+  type: watchface
+  tags: [clock_digital, date, timezone, from_pop_culture]
+  mydesc: Inspired by Back To The Future movies. Can show the date/time at departure/arrival locations. Might be confusing.
+
+- id: 554e399d35b33aae66000050
+  imgext: png
+  name: Neon 80s
+  author: TomHol
+  type: watchface
+  tags: [clock_digital, date, battery, animations]
+  mydesc: Retro Wave style (or whatever it is called). Smooth and subtle animations.
