@@ -42,12 +42,30 @@
 	/* Basic styles to have something, these don't look that good, though. */
 	.item {
 		clear: both;
+		margin: 0.5em 0;
+	}
+	.item::after {
+		content: " ";
+		display: block;
+		clear: both;
+		width: 0;
+		height: 0;
 	}
 	.item span.img {
 		float: left;
+		padding-right: 0.5em;
+	}
+	.item span.img img {
+		vertical-align: middle;
 	}
 	.item span {
 		display: block;
+		margin-bottom: 0.5em;
+	}
+	.item span.type img {
+		width: 1em;
+		height: 1em;
+		vertical-align: middle;
 	}
 	.item span.tag {
 		display: inline;
@@ -82,10 +100,15 @@
 
 <div class="item {{ item.type }} {{ item.tags | join ' ' }}">
 	<span class="img"><a href="https://apps.getpebble.com/en_US/application/{{ item.id }}?dev_settings=true"><img src="imgs/{{ item.id }}.{{ item.imgext }}" alt=""></a></span>
-	<span class="name"><a href="https://apps.getpebble.com/en_US/application/{{ item.id }}?dev_settings=true">{{ item.name }}</a></span>
-	<span class="author">{{ item.author }}</span>
+	<span class="name"><a href="https://apps.getpebble.com/en_US/application/{{ item.id }}?dev_settings=true">{{ item.name | escape }}</a></span>
+	<span class="author">{{ item.author | escape }}</span>
+	<span class="type">
+	{% if item.type == 'watchface' or item.type == 'watchapp' %}
+		<img src="{{ item.type }}.svg" alt="" width="16" height="16">
+	{% endif %}
+	{{ item.type }}</span>
 	<span class="tags">{% for tag in sorted_tags %}<span class="tag">{{tag}}</span>{% endfor %}</span>
-	<span class="mydesc">{{ item.mydesc }}</span>
+	<span class="mydesc">{{ item.mydesc | escape }}</span>
 </div>
 
 {% endfor %}

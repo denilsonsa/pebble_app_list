@@ -70,14 +70,6 @@
   tags: [clock_digital]
   mydesc: Time in the style of a (solved) nonogram/picross puzzle.
 
-- id: 557aaf5b9362838d9300000a
-  imgext: png
-  name: Tebbletris
-  author: WRansohoff
-  type: watchapp
-  tags: [game]
-  mydesc: Tetris, controlled with the buttons.
-
 - id: 56be30b6c85a7e0aa700001d
   imgext: gif
   name: Love Initials
@@ -285,3 +277,316 @@
   type: watchface
   tags: [clock_digital, date, battery, animations]
   mydesc: Retro Wave style (or whatever it is called). Smooth and subtle animations.
+
+- id: 557aaf5b9362838d9300000a
+  imgext: png
+  name: Tebbletris
+  author: WRansohoff
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: Tetris, controlled with the buttons. It works well, given the limited buttons of a Pebble device; but not well enough to make you want to play this several times.
+
+- id: 54b539fdeb68dd0a0900006a
+  imgext: png
+  name: Lacuna
+  author: Woogal
+  type: watchapp
+  tags: [game, controls_buttons, controls_tilt]
+  mydesc: Mix of infinite tunnel with flappy bird. Use accelerometer to move left/right, and press buttons to move up. Touch the side walls or the bottom and you are dead, which happens no longer than 2 seconds after you start playing.
+
+- id: 532f63d1cf306d2db000030a
+  imgext: png
+  name: Square Tube 3D
+  author: Astro75
+  type: watchapp
+  tags: [game, controls_tilt, personal_pick]
+  mydesc: Infinite downwards tunnel. Black&white. Nice tilt controls.
+
+- id: 557ed8733c562e76c5000021
+  imgext: png
+  name: Arena3D
+  author: robisodd
+  type: watchapp
+  tags: [demo, controls_tilt, controls_buttons]
+  mydesc: Interactive demo of a 3D raycaster, similar to Wolfenstein 3D and to that Windows 95 screensaver.
+
+- id: 52eaaa9026dfc38c0e000010
+  imgext: png
+  name: Mandelbrot Generator
+  author: Matthew Hungerford
+  type: watchapp
+  tags: [demo, broken]
+  mydesc: Showed garbled graphics for me.
+
+- id: 546eb7115c3354a16700004d
+  imgext: png
+  name: Boing Ball
+  author: Ben Hudson
+  type: watchapp
+  tags: [demo, broken]
+  mydesc: Showed garbled graphics for me.
+
+- id: 53960f64261143288500011f
+  imgext: gif
+  name: PebbleGL 3D
+  author: Matthew Hungerford
+  type: watchapp
+  tags: [demo, broken]
+  mydesc: Showed garbled graphics for me.
+
+- id: 553daf1e68e47457700000ed
+  imgext: gif
+  name: Flyby
+  author: John Hryb
+  type: watchapp
+  tags: [demo, clock_digital]
+  mydesc: Simple demo/animation. Refused to show colors for me.
+
+- id: 555038b74ea974ab5500010d
+  imgext: png
+  name: Sprint Racer
+  author: Nitin Gupta
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: Racing game. Controls with the buttons. Not bad, but the framerate varies a lot depending on how many cars are visible on the screen.
+
+- id: 53a2be30108d1843d5000179
+  imgext: png
+  name: Peball
+  author: Samuel Schaffranek
+  type: watchapp
+  tags: [game, controls_tilt]
+  mydesc: Guide the ball by tilting the device, avoiding the holes. Too difficult to control.
+
+- id: 53c1d77602e427ddaf00003c
+  imgext: png
+  name: Steady Ball
+  author: Adriano Alvarez
+  type: watchapp
+  tags: [game, controls_tilt]
+  mydesc: Tilt the device to keep the ball at the circle. I didn't like it.
+
+- id: 536ceec849d07fe9b600016b
+  imgext: png
+  name: Pokedex
+  author: Gold Software
+  type: watchface
+  tags: [clock_digital, from_video_games]
+  mydesc: Shows a random Pokémon in black&white every few seconds. The pictures are hard to recognize, as they only have two colors with no dithering.
+
+- id: 551da41085e5ba4af9000058
+  imgext: png
+  name: Pokedex
+  author: Jascosius
+  type: watchapp
+  tags: [tool, from_video_games]
+  mydesc: A very complete list of all Pokémon. Impressive, although the usefulness is limited by the Pebble controls and by the tiny screen.
+
+- id: 55335bf6ac07519f3c0000ae
+  imgext: png
+  name: Imgurmon
+  author: Mitch Davis
+  type: watchapp
+  tags: [game, controls_tilt, controls_buttons]
+  mydesc: A game that feels like Pokémon games for Game Boy, but it is very limited (or incomplete, given it was created during a 14-hour game jam). Feels more like a proof-of-concept.
+
+- id: 55609cba2ff3b5c75d00009b
+  imgext: png
+  name: Big Calendar App
+  author: kaaku
+  type: watchapp
+  tags: [calendar, date, clock_digital, weather, battery, has_settings, personal_pick]
+  mydesc: Pretty calendar in colors, with bold and easy to read text. Has 8 color themes, and several other options. Also shows the weather forecast after pressing the middle button. Excellent app to be used as a quick launch shortcut. Doesn't show the week number.
+
+- id: 52b984d1fd47637b8900008e
+  imgext: png
+  name: Calendar
+  author: Remus Lazar
+  type: watchapp
+  tags: [calendar, clock_digital, has_settings, personal_pick]
+  mydesc: Black&white calendar that is easy to read, has translations for several languages, can show either Monday or Sunday as the first day of the week, and always shows the week number.
+
+- id: 55da378a6323c5cc54000029
+  imgext: png
+  name: Color Calendar
+  author: Kelby
+  type: watchapp
+  tags: [calendar]
+  mydesc: Pretty calendar in colors. The font is too thin, making it hard to read.
+
+- id: 52c5e8771fcbec2b1f000007
+  imgext: png
+  name: Calendar App
+  author: William Heaton
+  type: watchapp
+  tags: [calendar, broken, companion_app]
+  mydesc: Supposedly, can use the companion Andriod app to show events from your calendar into the Pebble calendar watchapp. However, it does not work.
+
+- id: 530c4cf5a81732126e00021d
+  imgext: png
+  name: Calendar App
+  author: Seaware
+  type: watchapp
+  tags: [calendar, has_settings]
+  mydesc: Simple calendar app. Week can start on Sunday or Monday. Can show week numbers. Can toggle between white or black background. Has several languages. However, I didn't like it as much, because of very minor graphic glitches, and because the current day keeps blinking very slowly.
+
+- id: 545916455a7e52713b000075
+  imgext: png
+  name: BPM Detector
+  author: robisodd
+  type: watchapp
+  tags: [tool]
+  mydesc: Detects beats per minute by listening to the built-in microphone. Just tap on the Pebble or near it.
+
+- id: 55a45e4ce6f9096732000077
+  imgext: png
+  name: Attitude Indicator
+  author: David Gianforte
+  type: watchapp
+  tags: [tool, controls_tilt]
+  mydesc: Shows the accelerometer readings in a style similar to an airplane's artificial horizon.
+
+- id: 54579b9c34f53e93c6000067
+  imgext: png
+  name: Accelerometer
+  author: Afonso Santos
+  type: watchapp
+  tags: [tool, demo]
+  mydesc: Shows the accelerometer readings in a graph. Can choose which axis (X, Y, Z) to plot.
+
+- id: 540f7cafbc27450164000157
+  imgext: png
+  name: Compass
+  author: Pebble
+  type: watchapp
+  tags: [tool, controls_tilt]
+  mydesc: Compass. Might not be very accurate due to magnetic interferences.
+
+- id: 52f0253c4ae3633a6400083a
+  imgext: png
+  name: XKCD Comic
+  author: Matthew Hungerford
+  type: watchapp
+  tags: []
+  mydesc: A subset of XKCD comics, re-mastered for Pebble reading.
+
+- id: 53246928fec90d583c0000b2
+  imgext: png
+  name: Icon Pop Quiz
+  author: Alegrium
+  type: watchapp
+  tags: [game, from_pop_culture]
+  mydesc: Simple quiz about some famous movies and characters.
+
+- id: 52cf056321e5796173000081
+  imgext: png
+  name: Next Train
+  author: Tjeerd Ytsma
+  type: watchapp
+  tags: [has_settings]
+  mydesc: Shows the next train departures between two stations. Might be helpful if you are in Belgium or in the Netherlands. The controls are confusing.
+
+- id: 56e4693181ff036ba9000020
+  imgext: png
+  name: You Cannot Go Back!
+  author: Tim Martin
+  type: watchapp
+  tags: [game, controls_buttons, personal_pick]
+  mydesc: Simple puzzle-ish game was designed for the Pebble buttons. The gameplay is simple and challenging (it requires memory and paying attention to small details).
+
+- id: 5568e32f7802ba322c00006b
+  imgext: png
+  name: Sky Attack
+  author: NiVZ
+  type: watchapp
+  tags: [game, controls_buttons, from_video_games]
+  mydesc: Retro-inspired arcade game where you control a ship and must shoot enemy ships while dodging incoming bullets. Simple and well done.
+
+- id: 530bfa51a81732a65b0000df
+  imgext: png
+  name: Flight Track
+  author: Frederico
+  type: watchapp
+  tags: [broken, has_settings]
+  mydesc: Was supposed to track flights using FlightAware, but it is not working.
+
+- id: 556bf9c4389795518100008d
+  imgext: png
+  name: SnowSki
+  author: Matthew Hungerford
+  type: watchapp
+  tags: [game, controls_buttons, controls_tilt]
+  mydesc: Simple ski game, with primitive collision detection and very basic controls (only three angles, and fixed speed).
+
+- id: 53e942b788204f80f8000018
+  imgext: png
+  name: QRaQ
+  author: FoldedToad
+  type: watchapp
+  tags: [broken, companion_app]
+  mydesc: Stores up to 4 QR Codes on the Pebble. Requires a companion app that is not listed in the Pebble store. Did not work for me.
+
+- id: 552aaf2078b9ce4416000042
+  imgext: png
+  name: Maze
+  author: RAMDev
+  type: watchapp
+  tags: [game, controls_tilt]
+  mydesc: Simple 2D maze game. Three densities (sizes).
+
+- id: 5324e550b7855aa7d20000a2
+  imgext: png
+  name: GyroMaze
+  author: Marcin
+  type: watchapp
+  tags: [game, controls_tilt]
+  mydesc: Simple 2D maze game.
+
+- id: 57b7c0eebb85ed5332000935
+  imgext: gif
+  name: Webcams
+  author: SetPebble
+  type: watchapp
+  tags: [broken, has_settings, clock_digital, date, battery]
+  mydesc: Was supposed to show images from webcams. The list of nearby webcams load fine, but the images themselves never load.
+
+- id: 56e9aa646214ff0be9000020
+  imgext: png
+  name: Mario Runner v0.3a
+  author: robisodd
+  type: watchapp
+  tags: [demo, game, controls_buttons, from_video_games]
+  mydesc: Alpha version of what could be a 2D infinite running 2D Mario game. Basic controls and gameplay are in place, and not much else. I even got to a bug where the life counter underflowed to 255 lives.
+
+- id: 550520f5be287a2e0a000085
+  imgext: png
+  name: Velocimeter
+  author: Gianpaulo M. Soares
+  type: watchapp
+  tags: [tool, broken]
+  mydesc: Doesn't work at all.
+
+- id: 548fcfb2cd117d43a9000084
+  imgext: png
+  name: Tiny Reversi
+  author: Benjamin Johns
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: A very good implementation of Reversi (AKA Othello), given the constraints of the device.
+
+- id: 579062c550c75291fa000032
+  imgext: png
+  name: Random Pictures
+  author: pfung
+  type: watchapp
+  tags: [random]
+  mydesc: Shows up to 9 random pictures. Might be useful to get some inspiration for telling stories or creating topics.
+
+- id: 568e99e4eacc81002d00007b
+  imgext: png
+  name: Unlock It for Pebble
+  author: Allan175
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: Very simple game. Press the button when the hand is over the target, and repeat this until you get bored (doesn't take too long).
+
