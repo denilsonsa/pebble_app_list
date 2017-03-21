@@ -510,6 +510,14 @@
   tags: [broken, has_settings]
   mydesc: Was supposed to track flights using FlightAware, but it is not working.
 
+- id: 57b7c0eebb85ed5332000935
+  imgext: gif
+  name: Webcams
+  author: SetPebble
+  type: watchapp
+  tags: [broken, has_settings, clock_digital, date, battery]
+  mydesc: Was supposed to show images from webcams. The list of nearby webcams load fine, but the images themselves never load.
+
 - id: 556bf9c4389795518100008d
   imgext: png
   name: SnowSki
@@ -525,6 +533,14 @@
   type: watchapp
   tags: [broken, companion_app]
   mydesc: Stores up to 4 QR Codes on the Pebble. Requires a companion app that is not listed in the Pebble store. Did not work for me.
+
+- id: 58359a0000355a9f11000374
+  imgext: png
+  name: Snapcode for Snapchat
+  author: Carson Katri
+  type: watchapp
+  tags: [has_settings]
+  mydesc: Shows the scannable snapcode for your Snapchat username. Might be useful if you use Snapchat and for some reason believe it is easier to share your username through the watch instead of using your phone.
 
 - id: 552aaf2078b9ce4416000042
   imgext: png
@@ -542,13 +558,21 @@
   tags: [game, controls_tilt]
   mydesc: Simple 2D maze game.
 
-- id: 57b7c0eebb85ed5332000935
-  imgext: gif
-  name: Webcams
-  author: SetPebble
+- id: 56e96a786214ffd83400000b
+  imgext: png
+  name: Pixel Muncher v0.6 alpha
+  author: robisodd
   type: watchapp
-  tags: [broken, has_settings, clock_digital, date, battery]
-  mydesc: Was supposed to show images from webcams. The list of nearby webcams load fine, but the images themselves never load.
+  tags: [game, controls_buttons, from_video_games]
+  mydesc: Pac-Man clone. Looks good, but controlling using the buttons is quite difficult.
+
+- id: 5299fe33129af75c010000a2
+  imgext: png
+  name: Blocks
+  author: Dirk Mika
+  type: watchapp
+  tags: [game, controls_buttons, from_video_games]
+  mydesc: Arkanoid/Breakout clone. Pretty good, considering the small screen size and the limited controls.
 
 - id: 56e9aa646214ff0be9000020
   imgext: png
@@ -574,13 +598,13 @@
   tags: [game, controls_buttons]
   mydesc: A very good implementation of Reversi (AKA Othello), given the constraints of the device.
 
-- id: 579062c550c75291fa000032
+- id: 5888f3f193254a8b9f00055a
   imgext: png
-  name: Random Pictures
-  author: pfung
+  name: Yacht Dice
+  author: Matt Hirao
   type: watchapp
-  tags: [random]
-  mydesc: Shows up to 9 random pictures. Might be useful to get some inspiration for telling stories or creating topics.
+  tags: [game, controls_buttons, personal_pick]
+  mydesc: A very good implementation of the dice game known as Yacht.
 
 - id: 568e99e4eacc81002d00007b
   imgext: png
@@ -590,3 +614,98 @@
   tags: [game, controls_buttons]
   mydesc: Very simple game. Press the button when the hand is over the target, and repeat this until you get bored (doesn't take too long).
 
+- id: 579062c550c75291fa000032
+  imgext: png
+  name: Random Pictures
+  author: pfung
+  type: watchapp
+  tags: [random]
+  mydesc: Shows up to 9 random pictures. Might be useful to get some inspiration for telling stories or creating topics.
+
+- id: 5638c1554f1af9b144000058
+  imgext: png
+  name: 8 Ball by Dalpek
+  author: Dalpek
+  type: watchapp
+  tags: [random]
+  mydesc: Simulation of the Magic 8-Ball, with some pretty neat graphics and animations.
+
+- id: 541cec5c0d8e63139700007d
+  imgext: png
+  name: Magic 8 Ball
+  author: Andrew Sowers
+  type: watchapp
+  tags: [random]
+  mydesc: Very basic simulation of the Magic 8-Ball.
+
+- id: 5304dcfe3985ada2bc000228
+  imgext: png
+  name: Magic Watch
+  author: Vidal Graupera
+  type: watchapp
+  tags: [random]
+  mydesc: Very basic simulation of the Magic 8-Ball.
+
+- id: 562495e2a7d78c5d72000032
+  imgext: png
+  name: Magic Dict8-Ball
+  author: dezign999
+  type: watchapp
+  tags: [random]
+  mydesc: Simulation of the Magic 8-Ball that uses voice recognition to show the question before answering it.
+
+- id: 53e34a13b52fe7649500013b
+  imgext: png
+  name: Random
+  author: TJ Stein
+  type: watchapp
+  tags: [random]
+  mydesc: Random number generator and coin flip. Has graphics for three different kinds of coins.
+
+- id: 55ef595eaab2f9bbfa00004d
+  imgext: png
+  name: Randomzr
+  author: iortegadev
+  type: watchapp
+  tags: [random]
+  mydesc: Random number (up to 9999), random color, 6-sided dice, and coin flip.
+
+- id: 52cf3491f726c87c7b000002
+  imgext: png
+  name: Game Dice
+  author: GameMore Software
+  type: watchapp
+  tags: [random, has_settings]
+  mydesc: Rolls one or multiple dice of 3, 4, 6, 8, 10, 12, 20, 100 sides. Shows the individual rolls and the sum.
+
+- id: 53f27ff37b3aef24c3000004
+  imgext: png
+  name: Shake Dice
+  author: SmartPebbl
+  type: watchapp
+  tags: [random]
+  mydesc: Rolls a dice of 4, 6, 8, 10, 12, 20, 100 sides, as well as a coin flip. The interface looks cool. Pressing the middle button quickly two times, or pressing and hold it, will reset the sum.
+
+- id: 55aefd31ac7b44732600001a
+  imgext: png
+  name: RPG Dice Roller
+  author: lamaga
+  type: watchapp
+  tags: [random]
+  mydesc: Rolls up to 12 dice of 4, 6, 8, 10, 12, 20 sides. Shows the individual rolls and the sum.
+
+- id: 54b87939c61607d06a0000ea
+  imgext: png
+  name: RPG Dice Roller
+  author: Brandon Gray
+  type: watchapp
+  tags: [random]
+  mydesc: Rolls up to 11 dice of 4, 6, 8, 10, 12, 20 sides. Shows the individual rolls and the sum.
+
+- id: 578e6ae402f6d86ce30000b4
+  imgext: png
+  name: Building Blocks
+  author: P1X3L
+  type: watchapp
+  tags: []
+  mydesc: Build isometrict shapes/strucutres. Nice idea, however the controls are extremely annoying (due to the limited Pebble input).
