@@ -709,3 +709,11 @@
   type: watchapp
   tags: []
   mydesc: Build isometrict shapes/strucutres. Nice idea, however the controls are extremely annoying (due to the limited Pebble input).
+
+- id: 52aae3f45287131977000098
+  imgext: png
+  name: Pebble Tips
+  author: Pebble
+  type: watchapp
+  tags: []
+  mydesc: Shows random tips/facts/trivia about the original Pebble over the day. Interesting if you would like to know more about Pebble, but it quickly gets repetitive and useless.
