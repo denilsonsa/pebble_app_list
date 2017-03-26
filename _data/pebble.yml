@@ -717,3 +717,123 @@
   type: watchapp
   tags: []
   mydesc: Shows random tips/facts/trivia about the original Pebble over the day. Interesting if you would like to know more about Pebble, but it quickly gets repetitive and useless.
+
+- id: 53207d5cef6e7708c700017c
+  imgext: png
+  name: Mr. Runner
+  author: Zing Games Inc.
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: Very simple game. The character keeps running, and you have to press/hold the button to make it stop and not get crushed. Doesn't have any options, the vibrations can't be disabled.
+
+- id: 546cf38371d611fe8a0000bc
+  imgext: png
+  name: Mr. Runner - UP
+  author: Zing Games Inc.
+  type: watchapp
+  tags: [game, controls_tilt]
+  mydesc: Clone of the several infinite jumping and climbing platforms games.
+
+- id: 5398f4e3857cda151a00002b
+  imgext: png
+  name: Watch The Slots
+  author: Zing Games Inc.
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: Slot machine game mixed with idle game (or incremental game), with XP and leveling up.
+
+- id: 53e3a5a22d39fcec11000108
+  imgext: png
+  name: Cash Shaker
+  author: Zing Games Inc.
+  type: watchapp
+  tags: [game, controls_tilt, controls_buttons]
+  mydesc: Idle game (or incremental game) that gives virtual money based on shaking the watch.
+
+- id: 539e18f21a19dec6ca0000aa
+  imgext: png
+  name: Pixel Miner
+  author: WearGa
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: Idle game (or incremental game). Just that, nothing else.
+
+- id: 54e69569ad38b6399f000017
+  imgext: gif
+  name: PinyWings
+  author: Heiko Behrens
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: Clone of Tiny Wings game. The demo is over in half minute.
+
+- id: 54f65e8a13cdff61490000b6
+  imgext: png
+  name: Games for Pebble
+  author: Sawyer Vaughan
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: Collection of Chess, Blackjack, 2048, Decrypt (Mastermind), Solitaire (Klondike), FOOD! (Snake), Tennis (Pong). Well implemented, but there is no reason to play those games on a Pebble device. The colors of Decrypt are hard to see.
+
+- id: 54033c6886b01c8c15000138
+  imgext: png
+  name: Drag Racing
+  author: Jan Gruncl
+  type: watchapp
+  tags: [game, controls_buttons]
+  mydesc: Decent clone of the drag racing games that are popular on mobile. Quite repetitive.
+
+- id: 554fdad54e604b6d060000ca
+  imgext: png
+  name: Strike Force
+  author: TomHol
+  type: watchapp
+  tags: [game, controls_buttons, controls_tilt]
+  mydesc: Decent shmup game, but quite hard to play.
+
+- id: 558697acf14558ea410000a0
+  imgext: png
+  name: Kart
+  author: Matt Williams
+  type: watchapp
+  tags: [game, demo, controls_buttons, controls_tilt]
+  mydesc: Decent implementation of Mode 7 rendering. However, this is not a complete game, it feels more like a tech demo.
+
+- id: 5547d46c66f8b91d8900008f
+  imgext: png
+  name: Color Mixer
+  author: TomHol
+  type: watchapp
+  tags: [demo]
+  mydesc: Demonstration of 64×64 colors on Pebble Time. Only useful for developers.
+
+- id: 555360dedd51ad098f000031
+  imgext: png
+  name: COLORPICK
+  author: TFL
+  type: watchapp
+  tags: [demo]
+  mydesc: Demonstration of the 64 colors on Pebble Time. Only useful for developers.
+
+- id: 56d0ad337c986fd06e000037
+  imgext: png
+  name: Plasma 3D Demo
+  author: Orion_
+  type: watchapp
+  tags: [demo]
+  mydesc: Demonstration of 3D rendering and the famous plasma effect.
+
+- id: 586bf8f7e09e63b4c7000473
+  imgext: png
+  name: MandaFractal
+  author: Ben
+  type: watchapp
+  tags: [demo, controls_buttons]
+  mydesc: Fractal rendering on Pebble. Nice demo, but it is better to render and interact with fractals using a more powerful device.
+
+- id: 56d064fb577bff3c23000021
+  imgext: png
+  name: Alice's Mom's Rescue
+  author: Orion_
+  type: watchapp
+  tags: [game, controls_buttons, personal_pick]
+  mydesc: Run-and-jump game with fast-paced gameplay, good controls, and cute smooth graphics. Challenging, but not frustrating. Quite short.
