@@ -478,6 +478,14 @@
   tags: [game, from_pop_culture]
   mydesc: Simple quiz about some famous movies and characters.
 
+- id: 57e12f684fac5c5a7400014d
+  imgext: png
+  name: Logo Quiz
+  author: Alessio Amato
+  type: watchapp
+  tags: [game]
+  mydesc: Simple quiz about famous brands, but some brands are not so famous. The image quality is very bad, some choices differ by a few pixels. You have to start from the beginning after the first mistake.
+
 - id: 52cf056321e5796173000081
   imgext: png
   name: Next Train
@@ -837,3 +845,91 @@
   type: watchapp
   tags: [game, controls_buttons, personal_pick]
   mydesc: Run-and-jump game with fast-paced gameplay, good controls, and cute smooth graphics. Challenging, but not frustrating. Quite short.
+
+- id: 56231c63ade802b29d00002b
+  imgext: png
+  name: Note To Self
+  author: Terry Yuen
+  type: watchapp
+  tags: [voice, notes, has_settings]
+  mydesc: Uses voice recognition to add notes or reminders. Has a pretty long configuration screen. Tries to support natural language.
+
+- id: 561f9188bcb7ac903a00005b
+  imgext: png
+  name: Voice2Timeline
+  author: JeroenDG
+  type: watchapp
+  tags: [voice, notes, has_settings]
+  mydesc: Adds pins/reminders at a specific time in the future. Very restricted set of formats, only allows the time but not any description. The limited format might help reducing frustration. Claims to support 6 languages.
+
+- id: 56205296ece6340e2f00001d
+  imgext: png
+  name: Voice Note
+  author: Ben624
+  type: watchapp
+  tags: [voice, notes, has_settings]
+  mydesc: Not-so-simple note-taking app, by voice recognition. Each note must have a title and a subtitle. The title has limited length. Overall, I find it too frustrating, but part of that is because I find voice recognition very frustrating.
+
+- id: 562eb6ebd2c136c34a00000b
+  imgext: png
+  name: Notes
+  author: Pebble
+  type: watchapp
+  tags: [voice, notes]
+  mydesc: Simple note-taking app, by voice recognition. Each note also includes the time of when it was taken.
+
+- id: 56221c26eb7be02abd00003b
+  imgext: png
+  name: Simple Notes
+  author: eirikodal
+  type: watchapp
+  tags: [voice, notes]
+  mydesc: Simple note-taking app, by voice recognition.
+
+- id: 52d1305b2fb69516c7000017
+  imgext: png
+  name: Notepad (Tertiary Text)
+  author: VGMoose
+  type: watchapp
+  tags: [notes]
+  mydesc: Note-taking app where you write letters by pressing the three buttons on the Pebble device. Nice proof-of-concept, but pressing 3 buttons per letter is too annoying and too slow.
+
+- id: 545ac61ec3428cb05a0000cb
+  imgext: png
+  name: Easy Note
+  author: Ravin
+  type: watchapp
+  tags: [has_settings, notes]
+  mydesc: Stores a single piece of text, which can be set from the settings screen. You cannot edit the text, only replace it with a new one.
+
+- id: 5546dbbdab49e49cb40000ef
+  imgext: png
+  name: Push Note
+  author: Ben624
+  type: watchapp
+  tags: [has_settings, notes]
+  mydesc: Stores multiple notes. Each note can be pushed from the settings screen. There is no way to view a long note, the text will be just cropped, which is not useful at all.
+
+- id: 53ab4e8965dbe1bce800013f
+  imgext: png
+  name: Infinite Notes
+  author: Bartosz Hernas
+  type: watchapp
+  tags: [broken, has_settings, notes]
+  mydesc: Has a web site to enter and edit notes (requires signing up with an e-mail address and a password). However, it didn't work for me. The Pebble app never loaded the notes (even after holding the middle button).
+
+- id: 52c6de187bf7b8a35800007b
+  imgext: png
+  name: Quoble
+  author: Karl Prikopa
+  type: watchapp
+  tags: [has_settings, personal_pick]
+  mydesc: Tracks multiple stock prices. Very good UI, both in the app and in the settings screen.
+
+- id: 576735253feaeea10e00028b
+  imgext: png
+  name: Color!
+  author: Slippery Elephant Studio
+  type: watchapp
+  tags: [demo]
+  mydesc: Painting app on a roughly 15x17 grid. Uses each of the four Pebble buttons to move the cursor, and holding down each button will change colors, start/stop drawing, keep the backlight on, or exit the app. Nice demo, not very useful, a bit unpolished (the cursor can go out of bounds).
