@@ -471,7 +471,7 @@
   mydesc: A subset of XKCD comics, re-mastered for Pebble reading.
 
 - id: 53246928fec90d583c0000b2
-  imgext: png
+  imgext: jpg
   name: Icon Pop Quiz
   author: Alegrium
   type: watchapp
@@ -933,3 +933,11 @@
   type: watchapp
   tags: [demo]
   mydesc: Painting app on a roughly 15x17 grid. Uses each of the four Pebble buttons to move the cursor, and holding down each button will change colors, start/stop drawing, keep the backlight on, or exit the app. Nice demo, not very useful, a bit unpolished (the cursor can go out of bounds).
+
+- id: 539b2e91199eaee552000025
+  imgext: png
+  name: Recordense Voice Recorder
+  author: Lemberg Solutions
+  type: watchapp
+  tags: [companion_app]
+  mydesc: A remote-control for the voice recording app (for Android) with the same name. Supports starting, pausing and stopping as recording, and also adding timestamp tags. All the recording is done in the mobile phone, which means the phone microphone is used.
