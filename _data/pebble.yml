@@ -941,3 +941,19 @@
   type: watchapp
   tags: [companion_app]
   mydesc: A remote-control for the voice recording app (for Android) with the same name. Supports starting, pausing and stopping as recording, and also adding timestamp tags. All the recording is done in the mobile phone, which means the phone microphone is used.
+
+- id: 52bb09616437d1d079000110
+  imgext: png
+  name: Wrist Presenter, Wireless Presentation Control
+  author: Matthew Money
+  type: watchapp
+  tags: [companion_app, broken]
+  mydesc: It was supposed to be a way to control slides during presentations. However, it couldn't even control the slides from the built-in tutorial.
+
+- id: 52ee43b994cc96bd0b00000c
+  imgext: png
+  name: Slides
+  author: Luis Iván Cuende
+  type: watchapp
+  tags: [has_settings, personal_pick]
+  mydesc: Simple remote control for presentations. Has a built-in timer on the watch, and up/down buttons are mapped to actions at your computer. Requires running a Python server at the computer (should work on Linux/Windows/Mac), and requires manually inserting the IP address and the port. Some Python knowledge is welcome while running the server. https://github.com/luisivan/pebble-slides/
