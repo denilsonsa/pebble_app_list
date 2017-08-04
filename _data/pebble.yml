@@ -957,3 +957,11 @@
   type: watchapp
   tags: [has_settings, personal_pick]
   mydesc: Simple remote control for presentations. Has a built-in timer on the watch, and up/down buttons are mapped to actions at your computer. Requires running a Python server at the computer (should work on Linux/Windows/Mac), and requires manually inserting the IP address and the port. Some Python knowledge is welcome while running the server. https://github.com/luisivan/pebble-slides/
+
+- id: 55197642d6fa6f2633000092
+  imgext: png
+  name: Battery+
+  author: Ycleptic Studios
+  type: watchapp
+  tags: [Battery]
+  mydesc: Shows graphs of battery usage over time, and how long each full charge lasted. Predicts the amount of time left.
