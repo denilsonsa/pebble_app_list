@@ -965,3 +965,11 @@
   type: watchapp
   tags: [Battery]
   mydesc: Shows graphs of battery usage over time, and how long each full charge lasted. Predicts the amount of time left.
+
+- id: 52cd76389505d12f6400006e
+  imgext: png
+  name: RideOn
+  author: Ondrej Ruttkay
+  type: watchapp
+  tags: [companion_app, broken]
+  mydesc: Supposedly, it would show the speed and time, but it doesn't work at all. There is a paid subscription to also show maps, but I can't trust that, given not even the free features worked.
